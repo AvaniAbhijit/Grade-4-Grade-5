@@ -11,7 +11,7 @@ The turtle module allows you to create graphics easily in Python. This repositor
 
 **How to Run Code in Mu Editor**
 1. Download and Install Mu Editor:
- Download Mu Editor from [codewith.mu ](https://codewith.mu/en/download)
+  from [codewith.mu ](https://codewith.mu/en/download)
 
 2. Install Mu Editor following the instructions for your operating system.
   Open Mu Editor:
