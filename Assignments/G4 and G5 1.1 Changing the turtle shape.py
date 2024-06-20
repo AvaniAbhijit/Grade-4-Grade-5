@@ -1,0 +1,10 @@
+import turtle
+# Creating a turtle object(pen)
+t = turtle.Turtle()
+t.shape("turtle")
+#t.shape("triangle")
+#t.shape("square")
+#t.shape("classic")
+#t.shape("arrow")
+#t.shape("circle")
+turtle.done()
