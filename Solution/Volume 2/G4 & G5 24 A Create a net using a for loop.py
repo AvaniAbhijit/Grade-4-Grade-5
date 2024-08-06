@@ -1,0 +1,92 @@
+# Task 1:- Create the vertical grid of the goal post.
+
+import turtle as t
+
+t.speed(0)
+t.up()
+t.backward(450)
+#t.left(90)
+t.down()
+#t.forward(350)
+t.begin_fill()
+t.color('#54c6ff')
+for i in range(2):
+    t.forward(800)
+    t.left(90)
+    t.forward(250)
+    t.left(90)
+t.end_fill()
+t.up()
+t.right(90)
+t.forward(350)
+t.left(90)
+t.down()
+
+t.begin_fill()
+t.color('#0bb828')
+for i in range(2):
+    t.forward(800)
+    t.left(90)
+    t.forward(400)
+    t.left(90)
+t.end_fill()
+
+t.color('white')
+t.up()
+t.forward(200)
+t.left(90)
+t.forward(400)
+t.right(90)
+t.down()
+t.width(5)
+for i in range(2):
+    t.forward(400)
+    t.right(90)
+    t.forward(100)
+    t.right(90)
+
+for i in range(13):
+    t.color('white')
+    t.up()
+    t.forward(15)
+    t.width(1)
+    t.right(90)
+    t.down()
+    t.forward(100)
+    t.up()
+    t.left(90)
+    t.forward(15)
+    t.down()
+    t.left(90)
+    t.forward(100)
+    t.right(90)
+
+t.up()
+t.forward(10)
+t.right(90)
+t.forward(15)
+t.down()
+
+for i in range(5):
+    t.right(90)
+    t.forward(400)
+
+    t.up()
+    t.left(90)
+    t.forward(15)
+    t.left(90)
+    t.down()
+    t.forward(400)
+    t.right(90)
+t.up()
+t.forward(12)
+t.right(90)
+
+t.forward(200)
+t.left(90)
+t.forward(200)
+t.left(90)
+t.backward(400)
+t.down()
+
+t.done()
